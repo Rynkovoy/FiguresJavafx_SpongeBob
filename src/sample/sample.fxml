@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane prefHeight="450.0" prefWidth="579.0" style="-fx-background-color: #0ccff9;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle fx:id="wisp" arcHeight="5.0" arcWidth="5.0" fill="#fff600" height="190.0" layoutX="128.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" width="171.0" />
+      <Rectangle fx:id="pants1" arcHeight="5.0" arcWidth="5.0" fill="#944200" height="53.0" layoutX="128.0" layoutY="268.0" stroke="BLACK" strokeType="INSIDE" width="171.0" />
+      <Line endX="40.0" layoutX="170.0" layoutY="360.0" rotate="-90.0" startX="-40.0" strokeWidth="2.0" />
+      <Line endX="40.0" layoutX="250.0" layoutY="360.0" rotate="90.0" startX="-40.0" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="70.0" layoutY="401.0" startX="80.0" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="150.0" layoutY="401.0" startX="80.0" strokeWidth="2.0" />
+      <Circle fill="WHITE" layoutX="175.0" layoutY="136.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Circle fill="WHITE" layoutX="258.0" layoutY="136.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Circle fill="#0ccff9" layoutX="178.0" layoutY="136.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Circle fill="#0ccff9" layoutX="258.0" layoutY="136.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Circle fx:id="eye1" layoutX="180.0" layoutY="136.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Circle fx:id="eye2" layoutX="258.0" layoutY="136.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="70.0" layoutY="105.0" rotate="-104.9" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="150.0" layoutY="105.0" rotate="-105.3" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="85.0" layoutY="100.0" rotate="-80.8" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="105.0" layoutY="107.0" rotate="-36.9" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="170.0" layoutY="100.0" rotate="-73.3" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="190.0" layoutY="108.0" rotate="-38.7" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="60.0" layoutX="80.0" layoutY="170.0" rotate="39.3" startX="-40.0" strokeWidth="2.0" />
+      <Line endX="95.0" layoutX="-45.0" layoutY="135.0" rotate="-155.6" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="95.0" layoutX="-40.0" layoutY="132.0" rotate="-122.3" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="95.0" layoutX="-33.0" layoutY="130.0" rotate="-70.6" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="60.0" layoutX="327.0" layoutY="175.0" rotate="-41.2" startX="-40.0" strokeWidth="2.0" />
+      <Line endX="95.0" layoutX="295.0" layoutY="137.0" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="95.0" layoutX="290.0" layoutY="135.0" rotate="-26.6" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <Line endX="95.0" layoutX="287.0" layoutY="132.0" rotate="-54.2" startX="80.0" startY="5.0" strokeWidth="2.0" />
+      <QuadCurve fx:id="mouth" controlX="-50.0" controlY="-100.0" endX="50.0" fill="#ff1f1f" layoutX="214.0" layoutY="250.0" rotate="180.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Rectangle fx:id="teeth2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="13.0" layoutX="199.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="12.0" />
+      <Rectangle fx:id="teeth1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="13.0" layoutX="224.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="12.0" />
+      <Ellipse fx:id="tongue" fill="#d73ab5" layoutX="230.0" layoutY="234.0" radiusX="19.0" radiusY="9.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="13.0" layoutX="110.0" layoutY="185.0" rotate="-152.4" stroke="BLACK" strokeType="INSIDE" width="21.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="13.0" layoutX="297.0" layoutY="196.0" rotate="-28.3" stroke="BLACK" strokeType="INSIDE" width="21.0" />
+      <Rectangle fx:id="pants2" arcHeight="5.0" arcWidth="5.0" fill="#944200" height="22.0" layoutX="159.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="21.0" />
+      <Rectangle fx:id="pants3" arcHeight="5.0" arcWidth="5.0" fill="#944200" height="22.0" layoutX="240.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="21.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="22.0" layoutX="129.0" layoutY="268.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+      <Ellipse fx:id="hole1" fill="#e3ff1f" layoutX="280.0" layoutY="96.0" radiusX="10.0" radiusY="6.0" rotate="-37.6" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="nose" fill="#fff600" layoutX="218.0" layoutY="173.0" radiusX="8.0" radiusY="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+      <Ellipse fx:id="hole3" fill="#e3ff1f" layoutX="280.0" layoutY="175.0" radiusX="10.0" radiusY="6.0" rotate="-32.5" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="hole2" fill="#e3ff1f" layoutX="143.0" layoutY="96.0" radiusX="10.0" radiusY="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="hole4" fill="#e3ff1f" layoutX="160.0" layoutY="181.0" radiusX="7.0" radiusY="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="hole6" fill="#e3ff1f" layoutX="151.0" layoutY="234.0" radiusX="10.0" radiusY="7.0" rotate="-105.9" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="hole5" fill="#e3ff1f" layoutX="280.0" layoutY="234.0" radiusX="8.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <CheckBox fx:id="cbWisp" layoutX="425.0" layoutY="70.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Мочалка">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cbHoles" layoutX="425.0" layoutY="100.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Дырки">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cbPants" layoutX="425.0" layoutY="130.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Штаны">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cbEyes" layoutX="425.0" layoutY="160.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Глаза">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cbNose" layoutX="425.0" layoutY="190.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Нос">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cbMouth" layoutX="425.0" layoutY="220.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Рот">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="сbTongue" layoutX="425.0" layoutY="250.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Язык">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cbTeeth" layoutX="425.0" layoutY="280.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="Зубы">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <ColorPicker fx:id="colorPicker" layoutX="313.0" layoutY="360.0" onAction="#setColor" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;">
+         <effect>
+            <InnerShadow color="#c600b0" />
+         </effect>
+      </ColorPicker>
+      <Button fx:id="btnDef" layoutX="425.0" layoutY="360.0" mnemonicParsing="false" onAction="#setDef" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #0ccff9;" text="По умолчанию">
+         <effect>
+            <InnerShadow color="#c600b0" />
+         </effect>
+      </Button>
+      <Label layoutX="158.0" layoutY="14.0" style="-fx-font-weight: bold;" text="SpongeBob SquarePants" textFill="#ffda00">
+         <effect>
+            <Lighting bumpInput="$null" diffuseConstant="1.72" specularConstant="0.0" specularExponent="28.84" surfaceScale="1.15">
+               <light>
+                  <Light.Distant color="#d8ff00" />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Circle fill="WHITE" layoutX="78.0" layoutY="268.0" opacity="0.57" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="66.0" layoutY="90.0" opacity="0.57" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="341.0" layoutY="229.0" opacity="0.57" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="49.0" layoutY="373.0" opacity="0.57" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="51.0" layoutY="208.0" opacity="0.57" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="352.0" layoutY="99.0" opacity="0.57" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="504.0" layoutY="21.0" opacity="0.57" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="555.0" layoutY="177.0" opacity="0.57" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="376.0" layoutY="286.0" opacity="0.57" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="516.0" layoutY="343.0" opacity="0.57" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="295.0" layoutY="385.0" opacity="0.57" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
